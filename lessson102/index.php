@@ -15,6 +15,8 @@ spl_autoload_register(function($class) {
 // Прочитываем массив из файла с роутами в переменную:
 $routes = require $_SERVER['DOCUMENT_ROOT'] . '/project/config/routes.php';
 
+
+
 // Урок 101 задание 2 Получите массив с роутами в файле index.php.
 var_dump($routes);
 
