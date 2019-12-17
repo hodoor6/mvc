@@ -1,6 +1,8 @@
 <?php
 //Урок 102 Задача 1 Скопируйте код моего класса Route и разместите его в файле /core/Route.php.
 
+
+
 namespace Core;
 
 class Route
