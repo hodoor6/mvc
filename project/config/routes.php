@@ -1,10 +1,5 @@
 <?php
-//namespace Core;
-//spl_autoload_register(function($class) {
-//    $ds = DIRECTORY_SEPARATOR;
-//    $filename = str_replace('\\',  $ds, $class ) . '.php';
-//    require($filename);
-//});
+
 
 use Core\Route;
 
