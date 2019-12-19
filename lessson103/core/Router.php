@@ -9,8 +9,7 @@ class Router
     public function getTrack($routes, $uri)
     {
 
-        foreach ($routes as $route){
-            $pattern = $this->createPattern($route->path); // см. описание метода
+        foreach ($routes as $route){$pattern = $this->createPattern($route->path); // см. описание метода
 
             /*
                 Проверяем адрес URI на соответствие регулярке
