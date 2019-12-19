@@ -1,0 +1,9 @@
+# урок 101 задание 2 Создайте файл htaccess. Выполните описанную настройку.
+# Проверьте ее работу: все адреса, кроме адресов из папки project/webroot должны редиректится на index.
+
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} !^/project/webroot/
+RewriteRule .+ index.php
